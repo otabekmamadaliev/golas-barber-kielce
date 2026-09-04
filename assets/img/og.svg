@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Gola's Barber Shop — Kielce, Sienkiewicza 76">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101215"/>
+      <stop offset="0.55" stop-color="#1a1d22"/>
+      <stop offset="1" stop-color="#24282e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.62">
+      <stop offset="0" stop-color="#c8873c" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#c8873c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stripe" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+      <rect width="46" height="11.5" y="0"    fill="#f5f2ee"/>
+      <rect width="46" height="11.5" y="11.5" fill="#c8873c"/>
+      <rect width="46" height="11.5" y="23"   fill="#f5f2ee"/>
+      <rect width="46" height="11.5" y="34.5" fill="#8f2b26"/>
+    </pattern>
+    <clipPath id="poleClip"><rect x="962" y="150" width="112" height="330" rx="56"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <g clip-path="url(#poleClip)"><rect x="900" y="100" width="240" height="440" fill="url(#stripe)"/></g>
+  <rect x="962" y="150" width="112" height="330" rx="56" fill="none" stroke="rgba(0,0,0,.35)" stroke-width="2"/>
+  <rect x="948" y="132" width="140" height="30" rx="9" fill="#b3ada5"/>
+  <rect x="948" y="468" width="140" height="30" rx="9" fill="#b3ada5"/>
+
+  <text x="88" y="196" font-family="Segoe UI, system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#e0a860">KIELCE &#183; SIENKIEWICZA 76</text>
+  <text x="88" y="304" font-family="Segoe UI, system-ui, sans-serif" font-size="82" font-weight="800" fill="#ffffff">Gola&#8217;s Barber Shop</text>
+  <text x="88" y="372" font-family="Segoe UI, system-ui, sans-serif" font-size="34" fill="rgba(255,255,255,.76)">Strzy&#380;enie &#183; broda &#183; golenie brzytw&#261;</text>
+
+  <rect x="88" y="432" width="300" height="70" rx="35" fill="#c8873c"/>
+  <text x="238" y="477" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="29" font-weight="700" fill="#ffffff">692 454 515</text>
+
+  <text x="88" y="556" font-family="Segoe UI, system-ui, sans-serif" font-size="25" fill="rgba(255,255,255,.6)">4,9 &#9733; &#8212; 192 opinie w Google</text>
+</svg>
